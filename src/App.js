@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Dinner from './dinner' // it is best practice
+// import Dinner from './dinner.js' // extension  .js its working but it is not necessary ok?
+
+
+// you dont see to mention the extension of component file i.e .js etc
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Dinner /> */}
+      <Dinner dishName="chicken karhai" sweetDish="kheer"></Dinner>
+      <Dinner dishName="chicken biryani" sweetDish="Rabri"></Dinner>
+      <Dinner dishName="chicken biryani" sweetDish="halwa"></Dinner>
+      <Dinner dishName="chicken biryani" sweetDish="jalleebi"></Dinner>
     </div>
   );
 }
 
 export default App;
+
