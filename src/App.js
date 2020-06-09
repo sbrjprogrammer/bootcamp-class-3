@@ -12,7 +12,7 @@ function App() {
       {/* <Dinner /> */}
       <Dinner dishName="chicken karhai" sweetDish="kheer"></Dinner>
       <Dinner dishName="chicken biryani" sweetDish="Rabri"></Dinner>
-      <Dinner dishName="chicken biryani" sweetDish="halwa"></Dinner>
+      <Dinner dishName="chicken biryani" sweetDish="gajar halwa"></Dinner>
       <Dinner dishName="chicken biryani" sweetDish="jalleebi"></Dinner>
     </div>
   );
